@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A configurator tool to extract properties from Spring Boot Config Server to a properties file or shell script.",
   "main": "index.js",
-  "scripts": {
-    "test": " node test/index.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fouadsemaan/application-configurator.git"
