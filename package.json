@@ -1,0 +1,33 @@
+{
+  "name": "application-configurator",
+  "version": "1.0.0",
+  "description": "A configurator tool to extract properties from Spring Boot Config Server to a properties file or shell script.",
+  "main": "index.js",
+  "scripts": {
+    "test": " node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fouadsemaan/application-configurator.git"
+  },
+  "keywords": [
+    "configuration",
+    "config",
+    "server"
+  ],
+  "author": "Fouad Semaan <semaanfouad@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fouadsemaan/application-configurator/issues"
+  },
+  "homepage": "https://github.com/fouadsemaan/application-configurator#readme",
+  "dependencies": {
+    "bunyan": "^1.8.5",
+    "cloud-config-client": "^0.3.0",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.0.6",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {}
+}
