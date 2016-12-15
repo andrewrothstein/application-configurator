@@ -18,15 +18,15 @@ client.properties_extractor("/opt/spark/conf", "spark", "http://configserver.myh
 Example
 -------
 
-Configuring an application in general requires setting up initial shell scripts or properties which we will set via the --properties_file flag. 
+Configuring an application in general requires setting up initial shell scripts or properties which we will refer to via the --properties_file flag. 
 
-Writing to a properties file requires tabular format where as initializing variables in a shell script will usually be written in an "export var1=valu1" format which we can set via the --template flag. By default, it will assume tabular format. Otherwise specify "export".
+Writing to a properties file generally requires tabular format where as initializing variables in a shell script will usually be written in an "export var1=value1" format which we can set via the --template flag. By default, it will assume tabular format. Otherwise specify "export".
 
-That file will also be placed in a specific folder the application at which we will set via --folder flag.
+That file will also be placed in a folder specific to the application, i.e. /opt/spark/conf, which we will set via the --folder flag.
 
-We need the address of the spring clound conig server we will connect to via the --config_server_ip flag.
+We need the address of the spring clound config server we will connect to via the --config_server_ip flag. 
 
-We need to know the application for which want to set its properties via the --application_name.
+We need to know the application for which want to set its properties via the --application_name as the spring config server can serve different properties for different applications.
 
 The configurator can be called on the command line:
 
