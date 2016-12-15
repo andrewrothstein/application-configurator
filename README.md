@@ -31,7 +31,7 @@ We need to know the application for which want to set its properties via the --a
 The configurator can be called on the command line:
 
 ```sh
-node index.js --folder "/opt/spark/conf" --config_server_ip "http://configserver.myhost.com:8889" --properties_file "spark-env.sh" --application_name "spark" --template export
+node examples/configure_command_line.js --folder "/opt/spark/conf" --config_server_ip "http://configserver.myhost.com:8889" --properties_file "spark-env.sh" --application_name "spark" --template export
 ```
 
 It could also be ran via a function call:
